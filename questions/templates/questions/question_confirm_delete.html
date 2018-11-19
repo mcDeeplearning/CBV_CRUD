@@ -1,0 +1,10 @@
+{%extends 'questions/question_base.html'%}
+
+{%block body%}
+    
+    <form method="post">
+        {%csrf_token%}
+        <input type="submit">
+    </form>    
+
+{%endblock%}
